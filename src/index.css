@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.bg-linear-to-b {
+  background: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.bg-linear-to-bl {
+  background: linear-gradient(to bottom left, var(--tw-gradient-stops));
+}
+
+.bg-linear-to-t {
+  background: linear-gradient(to top, var(--tw-gradient-stops));
+}
